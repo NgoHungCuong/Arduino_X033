@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/NgoHungCuong/Arduino_X033/main/core/arduino_core_ch32x_1.0.0.zip",
           "archiveFileName": "arduino_core_ch32x_1.0.0.zip",
-          "checksum": "SHA-256:69e026aa584625d1551833c781661ad93a65d9859fd7ca54fd7ea29e9ef9b5ee",
-          "size": "299420",
+          "checksum": "SHA-256:433708e6ce52a5861e11b5bc1d016831153bf0786c33bb000cc00118eacfab7c",
+          "size": "299413",
           "boards": [
             {"name": "Arduino X033"}
           ],
