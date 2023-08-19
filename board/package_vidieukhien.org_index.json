@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/NgoHungCuong/Arduino_X033/main/core/arduino_core_ch32x_1.0.0.zip",
           "archiveFileName": "arduino_core_ch32x_1.0.0.zip",
-          "checksum": "SHA-256:022ad068bf0c9f8c84545a6d1af0275a9237f51d3efa8082b46d99600c226a87",
-          "size": "286958",
+          "checksum": "SHA-256:69e026aa584625d1551833c781661ad93a65d9859fd7ca54fd7ea29e9ef9b5ee",
+          "size": "299420",
           "boards": [
             {"name": "Arduino X033"}
           ],
@@ -57,10 +57,10 @@
           [
             {
               "host": "i686-mingw32",
-              "url": "https://raw.githubusercontent.com/NgoHungCuong/Arduino_X033/main/bootloader/arduino_x033.zip",
-              "archiveFileName": "arduino_x033.zip",
-              "checksum": "SHA-256:d4ef6c38c3ea84e833e9172e068120bfc7bce9a893643c8a0411367e314571f6",
-              "size": "114160"
+              "url": "https://raw.githubusercontent.com/NgoHungCuong/Arduino_X033/main/bootloader/arduino_x033_bootloader_1.0.0.zip",
+              "archiveFileName": "arduino_x033_bootloader_1.0.0.zip",
+              "checksum": "SHA-256:df71d709301966c71482970b25c1c9e67428d69840ec5bde362e7afcf4db2a43",
+              "size": "114392"
             }
           ]
         }
