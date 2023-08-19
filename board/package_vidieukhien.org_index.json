@@ -23,7 +23,7 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "WCH",
+              "packager": "vidieukhien.org",
               "name": "riscv-none-embed-gcc",
               "version": "8.2.0"
             },
