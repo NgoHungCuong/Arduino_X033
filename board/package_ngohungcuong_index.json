@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "vidieukhien.org",
+      "name": "ngohungcuong",
       "websiteURL": "http://vidieukhien.org",
       "maintainer": "Ngo Hung Cuong",
       "email": "ngohungcuong@gmail.com",
@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "vidieukhien.org",
+          "name": "ngohungcuong",
           "architecture": "ch32x",
           "version": "1.0.0",
           "category": "Contributed",
@@ -23,12 +23,12 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "vidieukhien.org",
+              "packager": "ngohungcuong",
               "name": "riscv-none-embed-gcc",
               "version": "8.2.0"
             },
             {
-              "packager": "vidieukhien.org",
+              "packager": "ngohungcuong",
               "name": "arduino_x033_bootloader",
               "version": "1.0.0"
             }
