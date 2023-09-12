@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "ngohungcuong",
+          "name": "Arduino X033",
           "architecture": "ch32x",
           "version": "1.0.0",
           "category": "Contributed",
