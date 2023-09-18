@@ -1,0 +1,90 @@
+# See: https://arduino.github.io/arduino-cli/latest/platform-specification/
+
+menu.pnum=Board Select
+
+menu.xserial=U(S)ART support
+menu.usb=USB support (if available)
+menu.xusb=USB speed (if available)
+menu.virtio=Virtual serial support
+
+menu.opt=Optimize
+menu.dbg=Debug symbols and core logs
+menu.rtlib=C Runtime Library
+menu.upload_method=Upload method
+
+
+#############################################################################
+##Arduino X033
+
+ARDUINO_X033.name=Arduino X033
+ARDUINO_X033.build.core=arduino
+ARDUINO_X033.build.board=ARDUINO_X033
+ARDUINO_X033.upload.maximum_size=0
+ARDUINO_X033.upload.maximum_data_size=0
+ARDUINO_X033.build.variant_h=variant_{build.board}.h
+
+
+#Arduino X033
+ARDUINO_X033.menu.pnum.CH32X033F8P6=Arduino X033
+ARDUINO_X033.menu.pnum.CH32X033F8P6.node=NODE_X035G8
+ARDUINO_X033.menu.pnum.CH32X033F8P6.upload.maximum_size=55296
+ARDUINO_X033.menu.pnum.CH32X033F8P6.upload.maximum_data_size=20480
+ARDUINO_X033.menu.pnum.CH32X033F8P6.build.mcu=QingKe-V4C
+ARDUINO_X033.menu.pnum.CH32X033F8P6.build.board=CH32X033F8P6
+ARDUINO_X033.menu.pnum.CH32X033F8P6.build.series=CH32X035
+ARDUINO_X033.menu.pnum.CH32X033F8P6.build.variant=CH32X035/CH32X033F8P6
+ARDUINO_X033.menu.pnum.CH32X033F8P6.build.chip=CH32X033F8P6
+ARDUINO_X033.menu.pnum.CH32X033F8P6.build.march=rv32imacxw
+ARDUINO_X033.menu.pnum.CH32X033F8P6.build.mabi=ilp32
+ARDUINO_X033.menu.pnum.CH32X033F8P6.build.math_lib_gcc=-lm 
+ARDUINO_X033.menu.pnum.CH32X033F8P6.build.IQ_math_RV32=
+ARDUINO_X033.menu.pnum.CH32X033F8P6.build.ch_extra_lib=-lprintf
+
+
+# Upload menu
+ARDUINO_X033.menu.upload_method.swdMethod=arduino_x033_bootloader
+ARDUINO_X033.menu.upload_method.swdMethod.upload.protocol=
+ARDUINO_X033.menu.upload_method.swdMethod.upload.options=
+ARDUINO_X033.menu.upload_method.swdMethod.upload.tool=arduino_x033_bootloader
+
+
+
+# Optimizations
+ARDUINO_X033.menu.opt.osstd=Smallest (-Os default)
+ARDUINO_X033.menu.opt.osstd.build.flags.optimize=-Os 
+ARDUINO_X033.menu.opt.oslto=Smallest (-Os) with LTO
+ARDUINO_X033.menu.opt.oslto.build.flags.optimize=-Os -flto
+ARDUINO_X033.menu.opt.o1std=Fast (-O1)
+ARDUINO_X033.menu.opt.o1std.build.flags.optimize=-O1
+ARDUINO_X033.menu.opt.o1lto=Fast (-O1) with LTO
+ARDUINO_X033.menu.opt.o1lto.build.flags.optimize=-O1 -flto
+ARDUINO_X033.menu.opt.o2std=Faster (-O2)
+ARDUINO_X033.menu.opt.o2std.build.flags.optimize=-O2
+ARDUINO_X033.menu.opt.o2lto=Faster (-O2) with LTO
+ARDUINO_X033.menu.opt.o2lto.build.flags.optimize=-O2 -flto
+ARDUINO_X033.menu.opt.o3std=Fastest (-O3)
+ARDUINO_X033.menu.opt.o3std.build.flags.optimize=-O3
+ARDUINO_X033.menu.opt.o3lto=Fastest (-O3) with LTO
+ARDUINO_X033.menu.opt.o3lto.build.flags.optimize=-O3 -flto
+ARDUINO_X033.menu.opt.ogstd=Debug (-Og)
+ARDUINO_X033.menu.opt.ogstd.build.flags.optimize=-Og
+ARDUINO_X033.menu.opt.o0std=No Optimization (-O0)
+ARDUINO_X033.menu.opt.o0std.build.flags.optimize=-O0
+
+
+# Debug information
+ARDUINO_X033.menu.dbg.none=None
+ARDUINO_X033.menu.dbg.none.build.flags.debug= 
+
+# C Runtime Library
+ARDUINO_X033.menu.rtlib.nano=Newlib Nano (default)
+ARDUINO_X033.menu.rtlib.nano.build.flags.ldflags=--specs=nano.specs --specs=nosys.specs
+ARDUINO_X033.menu.rtlib.nanofp=Newlib Nano + Float Printf
+ARDUINO_X033.menu.rtlib.nanofp.build.flags.ldspecs=--specs=nano.specs --specs=nosys.specs -u _printf_float
+ARDUINO_X033.menu.rtlib.nanofs=Newlib Nano + Float Scanf
+ARDUINO_X033.menu.rtlib.nanofs.build.flags.ldspecs=--specs=nano.specs --specs=nosys.specs -u _scanf_float
+ARDUINO_X033.menu.rtlib.nanofps=Newlib Nano + Float Printf/Scanf
+ARDUINO_X033.menu.rtlib.nanofps.build.flags.ldspecs=--specs=nano.specs --specs=nosys.specs -u _printf_float -u _scanf_float
+ARDUINO_X033.menu.rtlib.full=Newlib Standard
+ARDUINO_X033.menu.rtlib.full.build.flags.ldspecs=
+

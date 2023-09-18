@@ -1,0 +1,12 @@
+# This file help to add generic board entry.
+
+
+
+# CH32X033F8P6
+ARDUINO_X033.menu.pnum.CH32X033F8P6=CH32X033F8P6 EVT
+ARDUINO_X033.menu.pnum.CH32X033F8P6.upload.maximum_size=55296
+ARDUINO_X033.menu.pnum.CH32X033F8P6.upload.maximum_data_size=20480
+ARDUINO_X033.menu.pnum.CH32X033F8P6.build.board=CH32X033F8P6
+ARDUINO_X033.menu.pnum.CH32X033F8P6.build.product_line=CH32X035
+ARDUINO_X033.menu.pnum.CH32X033F8P6.build.variant=CH32X035/CH32X033F8P6
+
