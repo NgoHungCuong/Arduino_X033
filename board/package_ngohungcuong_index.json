@@ -47,7 +47,14 @@
               "archiveFileName": "riscv-none-embed-gcc-win-8.2.0",
               "checksum": "SHA-256:1887d1b5c0afa087af24b11be7d8217d14da85c1afa53b1d8b59cd2f1ef4f90a",
               "size": "230375674"
-            }
+            },
+			{
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/NgoHungCuong/riscv-none-elf-gcc-xpack/releases/download/riscv-none-embed-gcc-linux64-v8.2.0/riscv-none-embed-gcc-linux64-8.2.0.zip",
+              "archiveFileName": "riscv-none-embed-gcc-linux64-8.2.0.zip",
+              "checksum": "SHA-256:1cf042c51eb5aa827fe4f064d2042763df52e19e83b9759d7864be77424d3b72",
+              "size": "236578728"
+            },
           ]
         },
         {
@@ -61,6 +68,13 @@
               "archiveFileName": "arduino_x033_bootloader_1.0.0.zip",
               "checksum": "SHA-256:38849799bf9950acc9df7a737259ec7384afae0ab6ba93bfd20630b7f874a8c1",
               "size": "120849"
+            },
+			{
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://raw.githubusercontent.com/NgoHungCuong/Arduino_X033/main/bootloader/arduino_x033_bootloader_linux64_1.0.0.zip",
+              "archiveFileName": "arduino_x033_bootloader_linux64_1.0.0.zip",
+              "checksum": "SHA-256:44e6e0b4ec5713a589272a8ab53bdbcc16987e7bb705d959d509098357ac93dc",
+              "size": "7189"
             }
           ]
         }
