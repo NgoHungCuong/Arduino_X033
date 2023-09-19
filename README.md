@@ -12,7 +12,7 @@ USB bulk, tự nhận driver, không cần cài đặt (từ windows 10 trở l�
 ## Sử dụng
 ### Hoạt động của bootloader:
 Khi cấp nguồn nếu nút user được nhấn, mạch vào chế độ nạp chương trình, nếu nút không được nhấn thì chạy ứng dụng. Vì vậy muốn nạp lại chương trình có 2 cách:
-* Cách 1: Rút nguồn, ấn và giữ nút user, cấp nguồn.
+* Cách 1: Rút nguồn, ấn và giữ nút user, cấp nguồn, nhả nút user.
 * Cách 2: Ấn và giữ nút reset, ấn và giữ nút user, nhả nút reset, nhả nút user.
 ### Cài đặt board Arduino X033:
 Thêm chuỗi json vào arduino https://raw.githubusercontent.com/NgoHungCuong/Arduino_X033/main/board/package_ngohungcuong_index.json
