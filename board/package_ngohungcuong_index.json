@@ -12,6 +12,31 @@
         {
           "name": "Arduino X033",
           "architecture": "ch32x",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/NgoHungCuong/Arduino_X033/main/core/arduino_core_ch32x_1.0.0.zip",
+          "archiveFileName": "arduino_core_ch32x_1.0.0.zip",
+          "checksum": "SHA-256:18c049a5aa7b39af5b124b78d406f967b163920a57aeb667abd1a117e231153c",
+          "size": "299533",
+          "boards": [
+            {"name": "Arduino X033"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ngohungcuong",
+              "name": "riscv-none-embed-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "ngohungcuong",
+              "name": "arduino_x033_bootloader",
+              "version": "1.0.0"
+            }
+          ]
+        },
+		{
+          "name": "Arduino X033",
+          "architecture": "ch32x",
           "version": "1.0.0",
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/NgoHungCuong/Arduino_X033/main/core/arduino_core_ch32x_1.0.0.zip",
@@ -54,6 +79,13 @@
               "archiveFileName": "riscv-none-embed-gcc.tar.gz",
               "checksum": "SHA-256:49249d60d9ab502a0405e4962cdbaf731f621ab21b869cc833f6c9bde2736a98",
               "size": "234117723"
+            },
+			{
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/NgoHungCuong/riscv-none-elf-gcc-xpack/releases/download/riscv-none-embed-gcc-macos-v8.2.0/riscv-none-embed-gcc-macos.tar.gz",
+              "archiveFileName": "riscv-none-embed-gcc-macos.tar.gz",
+              "checksum": "SHA-256:c32e85a580aa5bbf2236f93c777d73ea8640e68eafbc0a0a6663e47b36c2e7a3",
+              "size": "158541826"
             }
           ]
         },
@@ -75,6 +107,13 @@
               "archiveFileName": "arduino_x033_bootloader.tar.gz",
               "checksum": "SHA-256:75c0f356583f0215d24024c64de528e93186a4945557441da218cd2a05cf6fde",
               "size": "6961"
+            },
+			{
+              "host": "x86_64-apple-darwin",
+              "url": "https://raw.githubusercontent.com/NgoHungCuong/Arduino_X033/main/bootloader/arduino_x033_bootloader_macos.tar.gz",
+              "archiveFileName": "arduino_x033_bootloader_macos.tar.gz",
+              "checksum": "SHA-256:6c328321aa1e15e95cab3f2ed28208fd2c1587ceb2946e2c4b17a5c76c43a8d9",
+              "size": "5568"
             }
           ]
         }
