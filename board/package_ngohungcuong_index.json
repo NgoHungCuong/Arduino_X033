@@ -50,10 +50,10 @@
             },
 			{
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/NgoHungCuong/riscv-none-elf-gcc-xpack/releases/download/riscv-none-embed-gcc-linux64-v8.2.0/riscv-none-embed-gcc-linux64-8.2.0.zip",
-              "archiveFileName": "riscv-none-embed-gcc-linux64-8.2.0.zip",
-              "checksum": "SHA-256:1cf042c51eb5aa827fe4f064d2042763df52e19e83b9759d7864be77424d3b72",
-              "size": "236578728"
+              "url": "https://github.com/NgoHungCuong/riscv-none-elf-gcc-xpack/releases/download/riscv-none-embed-gcc-linux64-v8.2.0/riscv-none-embed-gcc-8.2.0.tar.gz",
+              "archiveFileName": "riscv-none-embed-gcc-8.2.0.tar.gz",
+              "checksum": "SHA-256:49249d60d9ab502a0405e4962cdbaf731f621ab21b869cc833f6c9bde2736a98",
+              "size": "234117723"
             },
           ]
         },
