@@ -71,10 +71,10 @@
             },
 			{
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://raw.githubusercontent.com/NgoHungCuong/Arduino_X033/main/bootloader/arduino_x033_bootloader_linux64_1.0.0.zip",
-              "archiveFileName": "arduino_x033_bootloader_linux64_1.0.0.zip",
-              "checksum": "SHA-256:44e6e0b4ec5713a589272a8ab53bdbcc16987e7bb705d959d509098357ac93dc",
-              "size": "7189"
+              "url": "https://raw.githubusercontent.com/NgoHungCuong/Arduino_X033/main/bootloader/arduino_x033_bootloader_1.0.0.tar.gz",
+              "archiveFileName": "arduino_x033_bootloader_1.0.0.tar.gz",
+              "checksum": "SHA-256:75c0f356583f0215d24024c64de528e93186a4945557441da218cd2a05cf6fde",
+              "size": "6961"
             }
           ]
         }
